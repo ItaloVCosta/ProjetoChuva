@@ -1,0 +1,39 @@
+body
+{
+    margin: 0;
+}
+.Conteudo_Menu > li
+{
+    text-decoration: none;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 40px;
+    line-height: 19px;
+
+    color: #725C5C;
+
+}
+
+h1
+{
+    
+
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    width: 178px;
+    height: 68px;
+    padding: 0px 22px 0px 20px;
+    margin: 0%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
