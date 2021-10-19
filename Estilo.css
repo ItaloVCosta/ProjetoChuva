@@ -1,16 +1,19 @@
+
 body
 {
     margin: 0;
+    
 }
-.Conteudo_Menu > li
+.Conteudo_Menu a
 {
     text-decoration: none;
 
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500; 
-    font-size: 40px;
+    font-size: 15px;
     line-height: 19px;
+    list-style-type: none;
 
     color: #725C5C;
 
@@ -27,13 +30,16 @@ h1
     margin: 0%;
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
     font-size: 30px;
+    font-weight:700;
     line-height: 35px;
     display: flex;
     align-items: center;
     text-align: center;
-
     color: #FFFFFF;
 
+}
+.TextoPrincial p
+{
+    text-decoration: none;
 }
