@@ -4,6 +4,7 @@ body
     margin: 0;
     height: 2000px;
     overflow-x:hidden;
+    display: inline-block;
     
 }
 /*----------------------Formatação da sidebar-------------------------*/
@@ -97,11 +98,21 @@ body
     color: #FFFFFF;
 
 }
-/*---------------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+/*----------------------Formatação do cabeçalho-------------------------*/
+.header
+{
+    width: 83.89%;
+    height: 68px;
+    background: #FDF1EB;
+}
+/*----------------------------------------------------------------------*/
+
 .TextoPrincipal
 {
+
     text-decoration: none;
-    margin-left: 19.32%;
+    left: 100%;
 
 }
 footer
