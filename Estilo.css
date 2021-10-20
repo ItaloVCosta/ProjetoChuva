@@ -3,6 +3,7 @@ body
 {
     margin: 0;
     height: 2000px;
+    overflow-x:hidden;
     
 }
 /*----------------------Formatação da sidebar-------------------------*/
@@ -10,13 +11,18 @@ body
 {
   list-style-type: none;  
 }
+.Imagem_MenuLogo
+{
+    width: 100%;
+    height: 40%;
+}
 .Sidebar
 {
     position: fixed;
     left: 0%;
     right: 0%;
     top: 0%;
-    width: 220px;
+    width: 16.105%;
     height: 100%;
     
     background: #FFFFFF;
@@ -33,27 +39,61 @@ body
     font-size: 15px;
     line-height: 19px;
 
+    display: flex;
+    padding-top: 3.19%;
+    padding-left: 10.9%;
+    padding-bottom: 3.19%;
     color: #725C5C;
 
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #FFFFFF;
+    
+
+}
+.Conteudo_Menu a:hover
+{
+    text-decoration: none;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 15px;
+    line-height: 19px;
+
+    display: flex;
+    padding-top: 3.19%;
+    padding-left: 13.18%;
+    padding-bottom: 3.19%;
+    border-left: solid 5px #ED7839;
+    color: #725C5C;
+    background: #FDF1EB;
+
+}
+.Conteudo_Menu ul
+{
+    margin: 0%;
+    padding-left: 0;
+    background-color: #E5E5E5;
 }
 
 .Sidebar h1
 {
     
-
+    margin: 0%;
     background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
-    width: 178px;
+    width: 80.9%;
     height: 68px;
-    padding: 0px 22px 0px 20px;
+    padding: 0 10.01% 0 9.1%;
     margin: 0%;
     font-family: Roboto;
     font-style: normal;
-    font-size: 30px;
+    font-size: 187.5%;
     font-weight:700;
     line-height: 35px;
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
     color: #FFFFFF;
 
 }
@@ -61,10 +101,10 @@ body
 .TextoPrincipal
 {
     text-decoration: none;
-    margin-left: 264px;
+    margin-left: 19.32%;
 
 }
 footer
 {
-    margin-left: 234px;
+    margin-left: 17.13%;
 }
