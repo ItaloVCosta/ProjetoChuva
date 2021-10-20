@@ -23,7 +23,7 @@ body
     left: 0%;
     right: 0%;
     top: 0%;
-    width: 16.105%;
+    width: 13.77em;
     height: 100%;
     
     background: #FFFFFF;
@@ -102,9 +102,11 @@ body
 /*----------------------Formatação do cabeçalho-------------------------*/
 .header
 {
+    position: relative;
     width: 83.89%;
     height: 68px;
     background: #FDF1EB;
+    left: 16.1%;
 }
 /*----------------------------------------------------------------------*/
 
