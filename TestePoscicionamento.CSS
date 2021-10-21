@@ -1,17 +1,19 @@
 body
 {
-    height: 2508px;
+    height: 122.995vw; 
     margin: 0;
     overflow-x:hidden;
+    display: flex;
+    flex-flow: row wrap;;
 }
 .flexbox
 {
     display: flex;
-    height: 100vh;
-    width: 86.57vw;
-    left: 16.105vw;
+    height: 100%;
+    width: 82.864vw;
+    /* left: 16.105vw; */
     flex-flow: row wrap;
-    align-content: flex-start;
+    /* align-content: space-around; */
     justify-content: space-around;
 
 }
@@ -26,52 +28,65 @@ div
     background-color: darkblue;
     width: 83.895vw;
     height: 4.98vw;
+    align-content: flex-start;
 
 }
 .Subtitulo
 {
+    
     background-color: orchid;
     height: 3.95vw;
     width: 56.84vw;
-    margin: 1.46vw 1.24vw 0.70vw 3.22vw;
+
+    /* margin: 1.46vw 1.24vw 0.70vw 3.22vw; */
 }
 .BotaoDownload
 {
     background-color: peru;
     height: 3.95vw;
     width: 17.28vw;
-    margin: 1.46vw 3.22vw 0.18vw 1.24vw ;
+    /* margin: 1.46vw 3.22vw 0.18vw 1.24vw ; */
 }
 .player
 {
     background-color: red;
     width: 57.32vw;
     height: 32.14vw;
-    margin: 0.7vw 1.13vw 1.10vw 3.28vw ;
+    /* margin: 0.7vw 1.13vw 1.10vw 3.28vw ; */
 }
 .detalhes
 {
     background-color:sienna;
     width: 17.72vw;
     height: 32.14vw;
-    margin: 0.18vw 3.28vw 11.10vw 1.13vw ;
+    /* margin: 0.18vw 3.28vw 11.10vw 1.13vw ; */
+}
+.TextoPrincipal
+{
+    background-color:lawngreen;
+    width: 77.45vw;
+    height: 13.84vw;
+}
+.Discussoes
+{
+    background-color:lightsalmon;
+    width: 77.45vw;
+    height: 45.46vw; 
 }
 footer
 {   
     position: relative;
     background-color: darkcyan;
-    width: 1086px;
-    height: 181px;
-    margin-left: 1.02vw;
-    margin-right: 3.37vw ;
+    width: 79.5vw;
+    height: 13.25vw;
+/*     margin-left: 1.02vw;
+    margin-right: 3.37vw ; */
 }
 .Sidebar
 {
-    position: fixed;
     background-color: darkgray;
-    width: 16.105vw;
+    width: 15.908vw;
     height: 100%;
-    top: 0%;
     
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
@@ -83,8 +98,9 @@ footer
 }
 .sidebar h1
 {
+    position: fixed;
     background-color: orange;
-    width: 100%;
+    width: inherit;
     height: 4.98vw;
     margin:0;
 }
