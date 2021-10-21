@@ -14,7 +14,7 @@ body
     /* left: 16.105vw; */
     flex-flow: row wrap;
     /* align-content: space-around; */
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
@@ -37,6 +37,7 @@ div
     background-color: orchid;
     height: 3.95vw;
     width: 56.84vw;
+    margin-right: 2.49vw;
 
     /* margin: 1.46vw 1.24vw 0.70vw 3.22vw; */
 }
@@ -52,6 +53,7 @@ div
     background-color: red;
     width: 57.32vw;
     height: 32.14vw;
+    margin-right: 2.27vw;
     /* margin: 0.7vw 1.13vw 1.10vw 3.28vw ; */
 }
 .detalhes
