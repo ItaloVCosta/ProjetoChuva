@@ -32,7 +32,7 @@ div
     display: flex;
 
 }
-.header .headerParteEsquerda
+.Header .HeaderParteEsquerda
 {
     width:67.9%;
     display: flex;
@@ -42,34 +42,52 @@ div
 
 
 }
-.header .headerParteDireita
-{
-    width:32.1%;
-
-
-}
-.headerParteEsquerda div
+.HeaderParteEsquerda div
 {
     width: 100%;
     padding-left: 2.6vw;
 }
-.headerParteEsquerda .Texto1, .Texto3
+.HeaderParteEsquerda .Texto1, .Texto3
 {
     font-size: 1vw;
     font-family: Roboto;
     font-weight: 400;
 }
-.headerParteEsquerda .Texto2
+.HeaderParteEsquerda .Texto2
 {
     font-size: 1.62vw;
     font-family: Roboto;
     font-weight: 400;
-}
-}
-.headerParteEsquerda .Texto3
+} 
+
+.Header .HeaderParteDireita
 {
+    width:32.1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
+.Header .HeaderParteDireita .BotaoLinguagem
+{
+    height: 2.5vw;
+    width: 7.13vw;
+    font-size: 1vw;
+    font-family: quicksand;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Header .HeaderParteDireita .BotaoLinguagem .DropDown
+{
+    padding: 0.5vw;
+}
+
 .Subtitulo
 {
     
@@ -77,8 +95,6 @@ div
     height: 3.95vw;
     width: 56.84vw;
     margin-right: 2.49vw;
-
-    /* margin: 1.46vw 1.24vw 0.70vw 3.22vw; */
 }
 .BotaoDownload
 {
@@ -114,14 +130,10 @@ div
     width: 77.45vw;
     height: 45.46vw; 
 }
-footer
+footer img
 {   
-    position: relative;
-    background-color: darkcyan;
     width: 79.5vw;
     height: 13.25vw;
-/*     margin-left: 1.02vw;
-    margin-right: 3.37vw ; */
 }
 .Sidebar
 {
