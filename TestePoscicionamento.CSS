@@ -23,6 +23,7 @@ div
     position: relative;
     
 }
+/* ----------------------------------Formatação do Header----------------------------------------- */
 .header
 {
     background-color: #FDF1EB;
@@ -142,20 +143,26 @@ div
 
 
 }
-
+/* ----------------------------------------------------------------------------------------------- */
+/* ------------------------------------Formtação do Subtítulo------------------------------------- */
 .Subtitulo
 {
-    
-    background-color: orchid;
     height: 3.95vw;
     width: 56.84vw;
     margin-right: 2.49vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.47vw;
+    color: #ED7839;
 }
+/* ----------------------------------------------------------------------------------------------- */
+
 .BotaoDownload
 {
     background-color: peru;
-    height: 3.95vw;
-    width: 17.28vw;
+    height: 5vw;
+    width: 17.57vw;
 }
 .player
 {
