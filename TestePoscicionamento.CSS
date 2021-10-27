@@ -144,7 +144,7 @@ div
 
 }
 /* ----------------------------------------------------------------------------------------------- */
-/* ------------------------------------Formtação do Subtítulo------------------------------------- */
+/* ------------------------------------Formatação do Subtítulo------------------------------------- */
 .Subtitulo
 {
     height: 3.95vw;
@@ -157,13 +157,82 @@ div
     color: #ED7839;
 }
 /* ----------------------------------------------------------------------------------------------- */
-
+/* ------------------------------------Formatação dos Botões------------------------------------- */
 .BotaoDownload
 {
-    background-color: peru;
     height: 5vw;
     width: 17.57vw;
+    display: flex;
+    flex-direction: column;
+
 }
+
+.BotaoDownload .ParteSuperior
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.BotaoDownload .ParteSuperior .Download
+{
+    background: #ED7839;
+    border-radius: 4px;
+    width: 8.82vw;
+    height: 2.28vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 1.1764vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BotaoDownload .ParteSuperior .Download img
+{
+    padding-right: 0.367vw;
+    width: 1.397vw;
+    height: 1.397vw;
+}
+
+.BotaoDownload .ParteSuperior .Estrela, .Doi
+{
+    background: #ED7839;
+    width: 3.16vw;
+    height: 2.28vw;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.BotaoDownload .ParteSuperior .Estrela img, .Doi img
+{
+    width: 1.397vw;
+    height: 1.397vw;
+
+}
+
+.BotaoDownload .ParteInferior
+{
+    width: 100%;
+    height: 50%;
+    padding-top: 0.88vw;
+    text-align: right;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.05vw;
+    letter-spacing: 0.1vw;
+    color: #ED7839;
+    text-transform: uppercase;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
 .player
 {
     background-color: red;
