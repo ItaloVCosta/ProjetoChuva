@@ -233,13 +233,35 @@ div
 }
 
 /* ----------------------------------------------------------------------------------------------- */
-.player
+/* -----------------------------------Formatação do Player---------------------------------------- */
+.Player
 {
-    background-color: red;
+    background-image: url(Imagens/Video/dewey1.png);
+    background-size: 57.32vw 32.14vw;
+    position: relative;
     width: 57.32vw;
     height: 32.14vw;
     margin-right: 2.27vw;
+    border-radius: 3px;
 }
+.Player::before
+{
+    background-color:  rgba(141, 53, 6, 0.5);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius: 3px;
+
+
+}
+
+.Player .TituloVideo
+{
+    z-index: 1;
+}
+/* ----------------------------------------------------------------------------------------------- */
 .detalhes
 {
     background-color:sienna;
