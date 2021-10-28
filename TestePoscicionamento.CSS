@@ -434,9 +434,54 @@ div
 /* ---------------------------------Formatação Texto Principal------------------------------------ */
 .TextoPrincipal
 {
-    background-color:lawngreen;
     width: 77.45vw;
     height: 13.84vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.TextoPrincipal .HeaderTextoPrincipal
+{
+    width: 100%;
+    height: 3.3088vw;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    padding: 0.735vw 1.102vw 0.735vw 1.102vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.47vw;
+    color: #4E4E4E;
+}
+
+.TextoPrincipal .Conteudo
+{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    line-height: 1.69vw;
+    letter-spacing: 0.02em;
+    padding: 1.102vw;
+    color: #5C5C5C;
+}
+
+.TextoPrincipal .Conteudo a
+{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 700;
+    color: #ED7839;
+    text-decoration:none;
+}
+
+.TextoPrincipal .Conteudo a:hover
+{
+    text-decoration:underline;
 }
 /* ----------------------------------------------------------------------------------------------- */
 .Discussoes
