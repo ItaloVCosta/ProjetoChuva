@@ -14,6 +14,7 @@ body
     width: 84.092vw;
     flex-flow: row wrap;
     justify-content: center;
+    align-content: space-between;
 }
 
 div
@@ -484,12 +485,67 @@ div
     text-decoration:underline;
 }
 /* ----------------------------------------------------------------------------------------------- */
+/* -------------------------------Formatação Área de Discussões----------------------------------- */
 .Discussoes
 {
-    background-color:lightsalmon;
     width: 77.45vw;
-    height: 45.46vw; 
+    height: 45.46vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: space-between;
+
+
 }
+
+.Discussoes .HeaderDiscussoes
+{
+    padding: 0.732vw 1.098vw 0.732vw 1.17vw;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    width: 100%;
+    height: 3.294vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.464vw;
+    color: #4E4E4E;
+
+}
+.Discussoes .Ideias
+{
+    width: 75.256vw;
+    height: 15.592vw;
+    background-color: darkblue;
+
+}
+.Discussoes .Comentarios
+{
+    width: 75.256vw;
+    height: 22.913vw;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: column;
+
+}
+
+.Discussoes .Comentarios .Comentario1, .Comentario2
+{
+    width: 100%;
+    height: 10.83vw;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+/* ----------------------------------------------------------------------------------------------- */
 footer img
 {   
     width: 79.5vw;
