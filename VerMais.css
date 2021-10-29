@@ -1,0 +1,14 @@
+body
+{
+    height: 154.17vw; 
+}
+.TextoPrincipal
+{
+    height: 41.176vw;
+}
+.TextoPrincipal .Conteudo
+{
+    height: 35.66vw;
+    line-height: 1.69vw;
+    letter-spacing: 0.02em;
+}
