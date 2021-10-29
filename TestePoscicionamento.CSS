@@ -531,7 +531,171 @@ div
     width: 75.256vw;
     height: 15.592vw;
     border-bottom: 1px solid #E7E7E7;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+.Discussoes .Conteudo .Ideias .Desenhos
+{
+    width: 18.84264vw;
+    height: 3.67205vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho1, .Desenho2, .Desenho3
+{
+    height: 100%;
+    width: 3.69558vw;
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho1
+{
+    background-image: url("Imagens/Comentarios/Desenhos/Desenho1/Vector23.png");
+    background-size: 100% 100%;
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho1 .Vector1
+{
+    position: absolute;
+    left: 37.087%;
+    right: 13.45%;
+    top: 55.9256%;
+    bottom: 17.1843%;
+    width: 1.827vw;
+    height: 0.9667vw;
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho1 .Vector2
+{
+    position: absolute;
+    left: 24.8706%;
+    right: 61.3609%;
+    top: 51.205%;
+    bottom: 27.4765%;
+    width: 0.5088vw;
+    height: 0.95vw;
+
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho1 .Vector3
+{
+    position: absolute;
+    left: 32.67%;
+    right: 16.116%;
+    top: 19.3706%;
+    bottom: 48.7127%;
+    width: 1.8926vw;
+    height: 1.1485vw;
+
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho2
+{
+    background-image: url("Imagens/Comentarios/Desenhos/Desenho2/Background.png");
+    background-size: 100% 100%;
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho2 .Aexterno
+{
+    position: absolute;
+    left: 53.46%;
+    right: 7.26%;
+    top: 41.52%;
+    bottom: 16.22%;
+    width: 1.4514vw;
+    height: 1.5205vw;
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho2 .Ainterno
+{
+    position: absolute;
+    left: 70.1%;
+    right: 26.74%;
+    top: 58.40%;
+    bottom: 37.31%;
+    width: 0.1169vw;
+    height: 0.1544vw;
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho2 .Qexterno
+{
+    position: absolute;
+    left: 21.89%;
+    right: 38.84%;
+    top: 20.43%;
+    bottom: 37.15%;
+    width: 1.4514vw;
+    height: 1.5205vw;
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho2 .Qinterno
+{
+    position: absolute;
+    left: 37.03%;
+    right: 51.91%;
+    top: 33.94%;
+    bottom: 54.70%;
+    width: 0.4088vw;
+    height: 0.4088vw;
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho3
+{
+    background-image: url("Imagens/Comentarios/Desenhos/Desenho3/Background.png");
+    background-size: 100% 100%;
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho3 .SuperiorLampada
+{
+    position: absolute;
+    left: 42.96%;
+    right: 33.53%;
+    top: 17.88%;
+    bottom: 57.52%;
+    width: 0.8683vw;
+    height: 0.88529vw;
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho3 .InferiorLampada
+{   
+    position: absolute;
+    left: 49.38%;
+    right: 39.95%;
+    top: 45.16%;
+    bottom: 49.92%;
+    width: 0.3941vw;
+    height: 0.1764vw;
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho3 .Cabeca1
+{
+    position: absolute;
+    left: 29.90%;
+    right: 54.42%;
+    top: 47.38%;
+    bottom: 36.51%;
+    width: 0.5794vw;
+    height: 0.5794vw;
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho3 .Cabeca2
+{
+    position: absolute;
+    left: 63.83%;
+    right: 20.47%;
+    top: 47.38%;
+    bottom: 36.51%;
+    width: 0.5794vw;
+    height: 0.5794vw;
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho3 .Corpo1
+{
+    position: absolute;
+    left: 23.38%;
+    right: 47.89%;
+    top: 63.84%;
+    bottom: 22.76%;
+    width: 1.0617vw;
+    height: 0.4823vw;
+}
+.Discussoes .Conteudo .Ideias .Desenhos .Desenho3 .Corpo2
+{
+    position: absolute;
+    left: 57.32%;
+    right: 13.95%;
+    top: 63.84%;
+    bottom: 22.76%;
+    width: 1.0617vw;
+    height: 0.4823vw;
 }
 .Discussoes .Conteudo .Comentarios
 {
