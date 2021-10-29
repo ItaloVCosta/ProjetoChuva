@@ -6,6 +6,10 @@ body
     display: flex;
     flex-flow: row wrap;;
 }
+a
+{
+    text-decoration: none;
+}
 .flexbox
 {
     display: flex;
@@ -696,6 +700,72 @@ div
     bottom: 22.76%;
     width: 1.0617vw;
     height: 0.4823vw;
+}
+.Discussoes .Conteudo .Ideias .Mensagem1
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.317vw;
+
+    color: #ED7839;
+}
+.Discussoes .Conteudo .Ideias .Mensagem2
+{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.024vw;
+    line-height: 1.39vw;
+    text-align: center;
+    color: #595959;
+    width: 45.827vw;
+    height: 2.855vw;
+}
+.Discussoes .Conteudo .Ideias .BotaoCriar
+{   
+    bottom: -1.83vw;
+    width: 9.736vw;
+    height: 2.34vw;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Discussoes .Conteudo .Ideias .BotaoCriar .Mensagem
+{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.098vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Discussoes .Conteudo .Ideias .BotaoCriar .Mais
+{
+    height: 1.244vw;
+    width: 1.244vw;
+    display: flex;
+    align-items: center;
+}
+.Discussoes .Conteudo .Ideias .BotaoCriar .Mais .Retangulo1
+{
+    position: absolute;
+    left: 0.512vw;
+    height: 1.244vw;
+    width: 0.2196vw;
+    background: #FFFFFF;
+    border-radius: 1px;
+}
+.Discussoes .Conteudo .Ideias .BotaoCriar .Mais .Retangulo2
+{
+    height: 0.2196vw;
+    width: 1.244vw;
+    background: #FFFFFF;
+    border-radius: 1px;
 }
 .Discussoes .Conteudo .Comentarios
 {
