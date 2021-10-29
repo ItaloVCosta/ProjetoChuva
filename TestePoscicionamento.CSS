@@ -915,8 +915,8 @@ footer img
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500; 
-    font-size: 15px;
-    line-height: 19px;
+    font-size: 1.098vw;
+    line-height: 1.39vw;
 
     display: flex;
     padding-top: 3.19%;
@@ -936,24 +936,20 @@ footer img
     padding-left: 0;
     background-color: #E5E5E5;
 }
-.Conteudo_Menu a:hover
+.Conteudo_Menu .Trabalhos
 {
-    text-decoration: none;
-
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: 500; 
-    font-size: 15px;
-    line-height: 19px;
-
-    display: flex;
-    padding-top: 3.19%;
     padding-left: 13.18%;
-    padding-bottom: 3.19%;
     border-left: solid 5px #ED7839;
     color: #725C5C;
     background: #FDF1EB;
+}
 
+.Conteudo_Menu a:not(.Trabalhos):hover
+{
+    padding-left: 13.18%;
+    border-left: solid 5px #ED7839;
+    color: #725C5C;
+    background: #FDF1EB;
 }
 /* ----------------------------------------------------------------------------------------------- */
 
