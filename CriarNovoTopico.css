@@ -1,0 +1,128 @@
+
+body
+{
+    height: 130vw;
+}
+body .Discussoes
+{
+    height: 49.85vw;
+}
+.Discussoes .Conteudo .Ideias
+{
+    height: 18.897vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Ideias .Mensagem
+{
+    width: 70.98vw;
+    height: 1.3235vw;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    text-align: center;
+    color: #5C5C5C; 
+}
+.Ideias .Formulario
+{
+    height: 15.07vw;
+    width: 75.367vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+form, label, input
+{
+    width: 100%;
+    margin: 0;
+}
+form
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#Conteudo
+{
+    height: 8.69vw;
+    width: 100%;
+}
+#Assunto
+{
+    height: 2.876vw;
+    width: 100%;
+}
+.Assunto
+{
+    width: 100%;
+}
+.Formulario .Conteudo
+{
+    height: 8.60vw;
+}
+.Formulario .Conteudo .BottomBar
+{
+    width: 100%;
+    height: 4.1vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Formulario .Conteudo .BottomBar a
+{
+    width: 20%;
+}
+.Formulario .Conteudo .BottomBar .LadoDireito
+{
+   /*  width: 20%; */
+    height: 100%;
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0px 0px 4px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.102vw;
+    color: #FFFFFF;
+
+}
+.Formulario .Conteudo .BottomBar .LadoEsquerdo
+{
+    height: 100%;
+    width: 80%;
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 0px 0px 4px 4px;
+    
+}
+.Discussoes .Conteudo .Ideias .Formulario label
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.176vw;
+    color: #ED7839;
+}
+.Discussoes .Conteudo .Ideias .Formulario input
+{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;  
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    color: #4D4D4D;
+    padding-left: 1.70vw;
+
+}
+.Formulario .Conteudo .BottomBar .LadoEsquerdo .Imagem1
+{
+    padding: 0.805vw 2.27vw 0.732vw 2.122vw;
+}
+.Formulario .Conteudo .BottomBar .LadoEsquerdo .Imagem2
+{
+    padding: 0.805vw 0 0.732vw 0;
+}
