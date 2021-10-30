@@ -1,0 +1,122 @@
+body
+{
+    height: 170.995vw; 
+}
+.Flexbox .Discussoes
+{
+    height: 90.33vw;
+}
+.Flexbox .Discussoes .Conteudo
+{
+    height: 87.04vw;
+    justify-content: start;
+}
+.Flexbox .Discussoes .Conteudo .Comentarios
+{
+     height: 67.789vw;
+     justify-content: space-around;
+     top: 2.56vw;
+}
+.Flexbox .Discussoes .Conteudo .Comentarios .ComentarioExpandido
+{
+    height: 55.636vw;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.Flexbox .Discussoes .Conteudo .Comentarios .ComentarioExpandido .Comentario2
+{
+    height: 13.54vw;
+}
+.Discussoes .Conteudo .Comentarios .Comentario2 .Botoes
+{
+    width: 12.5vw;
+}
+.Flexbox .Discussoes .Conteudo .Comentarios .ComentarioExpandido .Resposta1, .Resposta4
+{
+    width: 100%;
+    height: 9.59vw;
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.Flexbox .Discussoes .Conteudo .Comentarios .ComentarioExpandido .Resposta1 .NomeAutor,.Resposta2 .NomeAutor, .Resposta4 .NomeAutor
+{
+    position: absolute;
+    left: 1.69vw;
+    right: 33.89vw;
+    top: 1.32vw;
+    bottom: 7.17vw;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.878vw;
+    color: #5C5C5C;
+}
+.Flexbox .Discussoes .Conteudo .Comentarios .ComentarioExpandido .Resposta1 .RespostaAutor,.Resposta2 .RespostaAutor, .Resposta4 .RespostaAutor, .Resposta3 .RespostaAutor
+{
+    position: absolute;
+    left: 1.69vw;
+    right: 1.69vw;
+    top: 3.147vw;
+    bottom: 2.56vw;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.02vw;
+    color: #4D4D4D;
+
+}
+.Flexbox .Discussoes .Conteudo .Comentarios .ComentarioExpandido .Resposta1 .Autor, .Resposta4 .Autor,.Resposta3 .Autor
+{
+    position: absolute;
+    left: 65.88vw;
+    right: 6.368vw;
+    top: 1.32vw;
+    bottom: 6.95vw;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.02vw;
+    color: #ED7839;
+
+}
+.Flexbox .Discussoes .Conteudo .Comentarios .ComentarioExpandido .Resposta1 .V, .Resposta4 .V, .Resposta3 .V
+{
+    position: absolute;
+    left: 71.30vw;
+    right: 1.69vw;
+    top: 1.098vw;
+    bottom: 60.80vw;
+}
+.Flexbox .Discussoes .Conteudo .Comentarios .ComentarioExpandido .Resposta2
+{
+    width:100%;
+    height: 9.59vw;
+
+}
+.Flexbox .Discussoes .Conteudo .Comentarios .ComentarioExpandido .Resposta3
+{
+    width: 100%;
+    height: 13.47vw;
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.Flexbox .Discussoes .Conteudo .Comentarios .ComentarioExpandido .Resposta3 .NomeAutor
+{
+    position: absolute;
+    left: 1.69vw;
+    right: 33.82vw;
+    top: 1.32vw;
+    bottom: 11.05vw;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.878vw;
+    color: #5C5C5C;
+}
