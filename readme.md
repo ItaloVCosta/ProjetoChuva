@@ -1,0 +1,2 @@
+Este Projeto é uma execução de um projeto feito no figma e fornecido pela empresa chuva para como uma etapa do processo seletivo de estágio.
+O arquivo que deve ser aberto é o Main, a partir disso os demais interagem com ele.
